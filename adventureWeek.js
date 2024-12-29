@@ -20,3 +20,14 @@ console.log("New Theme Name;" + themeName);
 //Add a new activity
 
 activities.push("Yoga");
+console.log("\n=== Increased Duration ===");
+console.log("activities after adding yoga:", activities);
+
+// Increase the duration
+durationInDays += 3;
+console.log("\=== Increased Duration ===");
+console.log("update duration (days):", durationInDays)
+
+
+
+
