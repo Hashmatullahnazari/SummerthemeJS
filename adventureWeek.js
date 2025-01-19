@@ -30,4 +30,21 @@ console.log("update duration (days):", durationInDays)
 
 
 
+// Demonstrate array methods
 
+// 1. `push()` - Add an activity at the end
+activities.push("Meditation");
+console.log("\nAfter push():", activities);
+
+
+// 2. `pop()` - Remove the last activity
+activities.pop();
+console.log("\nAfter pop():", activities);
+
+// 3. `shift()` - Remove the first activity
+activities.shift();
+console.log("\nAfter shift():", activities);
+
+// 4. `unshift()` - Add an activity to the beginning
+activities.unshift("Beach Walk");
+console.log("\n After unshift():", activities);
