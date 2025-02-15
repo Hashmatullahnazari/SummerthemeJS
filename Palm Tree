@@ -1,0 +1,24 @@
+let themeName = "Palm Tree";
+let duration = 7;
+let activities = ["Beach relaxation", "Coconut tree", "Surfing"];
+console.log("Initial theme Plan");
+console.log("Theme Name", themeName);
+console.log("Duration: ", duration, "days");
+console.log("Activities: ", activities);
+console.log("\n");
+
+//Update theme name
+themeName = "camping";
+console.log("Updated Theme Name:", themeName);
+
+//Add a new activity using push()
+
+activities.push("Hiking");
+console.log("Activities after push():", activities);
+
+//remove the last activity using pop()
+activities.pop();
+console.log("Activities after pop(): ", activities);
+
+//Adding actvity to the beginning using unshift()
+
